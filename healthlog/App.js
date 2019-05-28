@@ -23,9 +23,7 @@ export default class App extends Component<Props> {
           rightComponent={<View>
     <Avatar
       rounded
-      source={{
-        uri: 'https://randomuser.me/api/portraits/men/41.jpg',
-      }}
+      source={require('./eduardo.jpg')}
     />
 
     <Badge
